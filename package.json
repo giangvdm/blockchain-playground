@@ -1,0 +1,15 @@
+{
+  "name": "viblo_blockchain",
+  "version": "1.0.0",
+  "description": "Fiddling around with Blockch@in",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "giangvdm",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "randomstring": "^1.2.1"
+  }
+}
