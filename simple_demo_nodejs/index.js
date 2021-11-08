@@ -1,9 +1,6 @@
-const Block = require("./Block.js"),
-    Blockchain = require("./Blockchain.js");
+const { Block, Blockchain } = require('./Blockchain');
 
 const randomstring = require("randomstring");
-
-    // console.log(new Blockchain())
 
 const JangChain = new Blockchain();
 
@@ -18,6 +15,6 @@ for (let i = 0; i < 2; i++) {
             }
         )
     );
-}
 
-console.log(JangChain.chain);
+    console.log(JangChain.chain);
+}
