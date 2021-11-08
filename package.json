@@ -1,7 +1,7 @@
 {
-  "name": "viblo_blockchain",
+  "name": "blockchain_playground",
   "version": "1.0.0",
-  "description": "Fiddling around with Blockch@in",
+  "description": "Blockch@in Playground",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +11,17 @@
   "dependencies": {
     "crypto": "^1.0.1",
     "randomstring": "^1.2.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giangvdm/blockchain-playground.git"
+  },
+  "keywords": [
+    "blockchain"
+  ],
+  "bugs": {
+    "url": "https://github.com/giangvdm/blockchain-playground/issues"
+  },
+  "homepage": "https://github.com/giangvdm/blockchain-playground#readme"
 }
